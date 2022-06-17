@@ -1,0 +1,34 @@
+.container-fluid {
+    padding: 0 !important;
+}
+
+.banner {
+    width: 100%;
+    /* height: 300px; */
+    padding: 50px 100px;
+}
+
+.table-data {
+    margin-top: 100px;
+}
+
+.loader {
+    width: 100%;
+    height: auto;
+}
+
+.loader-img {
+    position: absolute;
+    top: 45.5%;
+    left: 48.5%;
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes loading {
+    0% {rotate: 0deg;}
+    100% {rotate: 360deg}
+}
